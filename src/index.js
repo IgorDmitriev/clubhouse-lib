@@ -61,6 +61,7 @@ class TokenRequestFactory implements RequestFactory {
       body: JSON.stringify(body),
       headers,
       method,
+      mode: 'no-cors'
     });
   }
 }
